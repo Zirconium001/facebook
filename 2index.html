@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Forgot Password | Facebook</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', Roboto, sans-serif;
+      background-color: #f0f2f5;
+    }
+
+    .header {
+      background-color: #1877f2;
+      padding: 15px 20px;
+      color: white;
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    .container {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      padding-top: 50px;
+      min-height: 80vh;
+    }
+
+    .forgot-box {
+      background: white;
+      width: 400px;
+      padding: 25px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .forgot-box h2 {
+      margin-top: 0;
+      font-size: 22px;
+      margin-bottom: 10px;
+    }
+
+    .forgot-box p {
+      color: #606770;
+      font-size: 15px;
+      margin-bottom: 20px;
+    }
+
+    .forgot-box input {
+      width: 100%;
+      padding: 12px;
+      font-size: 16px;
+      margin-bottom: 15px;
+      border: 1px solid #ccd0d5;
+      border-radius: 6px;
+    }
+
+    .btn-group {
+      display: flex;
+      justify-content: flex-end;
+      gap: 10px;
+    }
+
+    .btn {
+      padding: 10px 16px;
+      font-size: 15px;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+
+    .cancel-btn {
+      background-color: #e4e6eb;
+      color: #050505;
+    }
+
+    .search-btn {
+      background-color: #1877f2;
+      color: white;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      color: #888;
+      font-size: 12px;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">facebook</div>
+
+  <div class="container">
+    <div class="forgot-box">
+      <h2>Find Your Account</h2>
+      <p>Please enter your email address or mobile number to search for your account.</p>
+      <form>
+        <input type="text" placeholder="Email address or mobile number" required />
+        <div class="btn-group">
+          <button type="button" class="btn cancel-btn">Cancel</button>
+          <button type="submit" class="btn search-btn">Search</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <footer>
+    This is a project-only clone. Not affiliated with Facebook.
+  </footer>
+</body>
+</html>
